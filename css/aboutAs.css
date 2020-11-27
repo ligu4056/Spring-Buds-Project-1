@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.aboutAs-box {
+    width: 9.46rem;    margin: 0 auto;
+    margin-top: 0.20rem;
+    border: 0.09rem solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.10rem;
+    padding: 0.10rem 0.20rem;
+}
+
+.aboutAs-box .aboutAs-navigation {
+    border-bottom: 1px solid green;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: green;
+    height: 0.34rem;
+    line-height: 0.34rem;
+}
+
+.aboutAs-box .aboutAs-navigation a {
+    color: green;
+}
+
+.aboutAs-box .aboutAs-navigation .black {
+    color: #333333;
+}
+
+.aboutAs-box .certificate-box {
+    padding-top: 0.20rem;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.aboutAs-box .certificate-box .certificate {
+    display: block;
+    width: 3.48rem;
+    height: 2.31rem;
+    margin: 0.16rem auto;
+}
+
+.aboutAs-box .certificate-box .certificate-bottom-text {
+    text-align: center;
+}
+
+.aboutAs-box .certificate-box .payment-success {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Vertically centered */
+    min-height: calc(100vh - 3.4rem);
+}
+
+.aboutAs-box .certificate-box .payment-success .success {
+    width: 0.90rem;
+    margin-right: 0.2rem;
+}

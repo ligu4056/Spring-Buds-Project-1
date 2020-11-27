@@ -1,0 +1,185 @@
+         <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Document</title>
+
+    <style>
+        html {
+            font-size: calc(100vw / 12)
+        }
+
+        /* @media screen and (min-width: 1200px) {
+            html {
+                font-size: calc(1200px/12);
+            }
+        } */
+    </style>
+
+    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/donation.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top">
+        <img src="./img/index/login.jpg" alt="">
+        <span>Spring Buds Project</span>
+    </div>
+    <div class="head">
+        <a href="./index.html">Home</a>
+        <a href="./aboutAs.html">About us</a>
+        <a href="./workreport.html">Work report</a>
+        <a href="./donation.html">Donation</a>
+    </div>
+
+    <div class="content">
+
+        <div class="donation-flex">
+
+            <div class="donation-left">
+                <div class="donation-navigation">
+                    <a href="./home.html">Home Page</a>
+                    <span>></span>
+                    <a class="black">Donation</a>
+                </div>
+                <div class="select-money">
+                    <div class="selectone">
+                        SELECT ONE
+                    </div>
+
+                    <div class="money-row">
+                        <a class="row-left">
+                            $30
+                        </a>
+                        <a class="row-right">
+                            $50
+                        </a>
+                    </div>
+                    <div class="money-row">
+                        <a class="row-left">
+                            $100
+                        </a>
+                        <a class="row-right">
+                            $200
+                        </a>
+                    </div>
+                    <div class="money-row">
+                        <a class="row-left">
+                            $500
+                        </a>
+                        <div class="row-right-input">
+                            $ <input type="text" name="" id="" placeholder="other amount">
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="informations">
+
+                    <div class="title-informations">Your information:</div>
+
+                    <div class="input-box">
+                        <div class="lable">First Name*</div>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="input-box">
+                        <div class="lable">Last Name*</div>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="input-box">
+                        <div class="lable">Email address*</div>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="input-box">
+                        <div class="lable">Address*</div>
+                        <input type="text" name="" id="">
+                    </div>
+
+                    <div class="payment">Payment:</div>
+                    <div class="credit">
+                        CREDIT
+                    </div>
+
+                    <div class="input-box">
+                        <div class="lable">Name on card:</div>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="input-box">
+                        <div class="lable">Credit card number*</div>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="input-box">
+                        <div class="lable">Expiration data(MM/yy)*</div>
+                        <input type="text" name="" id="">
+                    </div>
+
+                    <div class="input-box">
+                        <div class="lable">Security code*</div>
+                        <input type="text" name="" id="">
+                    </div>
+
+                    <a href="./payment.html" class="donate">
+
+                        Donate
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="donation-right">
+                <div class="text-right-donation">
+                    You can be the hero they need
+                </div>
+
+                <img class="smile" src="./img/index/smile.jpg" alt="">
+
+                <div class="describe">
+
+                    The Spring Bud Project has a complete information disclosure system, regularly uploads annual work reports, follows the principles of truthfulness, completeness, and timeliness, and is responsible for the authenticity of the information to protect the legitimate rights and interests of donors, volunteers, and beneficiaries, and safeguard society The public’s right to know promotes the development of charity.
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+
+<script>
+
+    var btnArr = document.querySelectorAll(".money-row a")
+    for (var i = 0; i < btnArr.length; i++) {
+
+        btnArr[i].onclick = function () {
+            for (var j = 0; j < btnArr.length; j++) {
+                btnArr[j].classList.remove('currentSelect');  //点击后把背景色还原
+            }
+            this.classList.add('currentSelect')
+        }
+    }
+
+
+</script>
+
+</html>

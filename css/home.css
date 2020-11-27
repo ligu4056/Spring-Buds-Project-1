@@ -1,0 +1,201 @@
+@charset "UTF-8";
+.girls-box {
+    position: relative;
+}
+
+.girls-box .girls {
+    width: 100%;
+    display: block;
+}
+.girls-box .girlstext {
+    position: absolute;
+    bottom: 0.18rem;
+    right: 0.19rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.Hotline {
+    padding: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    color: red;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+
+.content-left {
+    float: left;
+    margin-left: 0.3rem;
+    width: 5.12rem;
+    border: 0.09rem solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.05rem;
+}
+
+.content-left .blue-line {
+    border-top: 0.06rem solid green;
+}
+
+.content-left .text {
+    color: green;
+    font-size: 0.2rem;
+    padding: 0.14rem 0rem 0.14rem 0.2rem;
+}
+
+.content-left .first-active {
+    display: flex;
+    align-items: center; /* Vertically centered */
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: green;
+}
+
+.content-left .first-active img {
+    display: block;
+    width: 2.74rem;
+    margin-right: 0.19rem;
+}
+
+.content-left .next-active {
+    display: flex;
+    align-items: center; /* Vertically centered */
+    font-size: 0.12rem;
+    font-weight: bold;
+    padding-right: 0.3rem;
+    padding-top: 0.45rem;
+    color: #333;
+}
+
+.content-left .next-active img {
+    display: block;
+    width: 1.44rem;
+    height: 1rem;
+    margin-right: 0.19rem;
+}
+
+.content-left .next-active .happyEducation {
+    font-size: 0.16rem;
+    font-weight: bold;
+    padding-bottom: 0.16rem;
+}
+
+.content-left .more {
+    display: block;
+    color: green;
+    font-size: 0.2rem;
+    text-align: right;
+    padding-right: 0.2rem;
+    text-decoration: underline;
+    line-height: 1;
+    padding-bottom: 0.20rem;
+    cursor: pointer;
+}
+
+.content-left .more::after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: inline;
+    border-top: 0.08rem solid transparent;
+    border-left: 0.16rem solid green;
+    border-bottom: 0.08rem solid transparent;
+    float: right;
+    margin-top: 0.04rem;
+    margin-left: 0.1rem;
+}
+
+.content-right {
+    float: right;
+    margin-right: 0.30rem;
+}
+
+.content-right .right-top {
+    width: 5.12rem;
+    border: 0.09rem solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.05rem;
+    padding-bottom: 0.3rem;
+}
+
+.content-right .right-top .blue-line {
+    border-top: 0.06rem solid green;
+}
+
+.content-right .right-top .text {
+    color: green;
+    font-size: 0.2rem;
+    padding: 0.14rem 0rem 0.14rem 0.28rem;
+}
+
+.content-right .right-top .right-top-active {
+    display: flex;
+    align-items: center; /* Vertically centered */
+    font-size: 0.16rem;
+    font-weight: bold;
+    color: #333;
+    margin-left: 0.28rem;
+}
+
+.content-right .right-top .right-top-active img {
+    display: block;
+    width: 1.4rem;
+    height: 1rem;
+    margin-right: 0.19rem;
+}
+
+.content-right .right-top .right-top-active .name {
+    margin-bottom: 0.3rem;
+}
+
+.content-right .right-top .dec {
+    padding-top: 0.25rem;
+    margin-left: 0.44rem;
+    color: #333;
+    font-size: 0.16rem;
+    line-height: 0.31rem;
+}
+
+.content-right .right-next {
+    margin-top: 0.30rem;
+    width: 5.12rem;
+    border: 0.09rem solid white;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.05rem;
+    padding-bottom: 0.3rem;
+}
+
+.content-right .right-next .blue-line {
+    border-top: 0.06rem solid green;
+    margin-bottom: 0.18rem;
+}
+
+.content-right .right-next .social-meida {
+    font-size: 0.24rem;
+    font-weight: bold;
+    padding-left: 0.40rem;
+    color: green;
+}
+
+.content-right .right-next .row {
+    display: flex;
+    margin-top: 0.20rem;
+}
+
+.content-right .right-next .row a {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Vertically centered */
+    font-size: 0.16rem;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+}
+
+.content-right .right-next .row a img {
+    width: 0.66rem;
+    height: 0.66rem;
+    margin-right: 0.14rem;
+    margin-left: 0.40rem;
+}

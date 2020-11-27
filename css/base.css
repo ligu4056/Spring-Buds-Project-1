@@ -1,0 +1,61 @@
+/* Clear the default inner and outer margins of the element  */
+* {
+    margin: 0;
+    padding: 0
+    }
+
+em,
+i {
+    font-style: normal;
+}
+/* Remove the dots in front of the list */
+li {
+    list-style: none;
+}
+/* Picture without border   Remove the blank gap on the bottom side of the picture */
+img {
+    border: 0;  /*ie6*/
+    /* vertical-align: middle; */
+}
+/* Make the button button a small hand */
+button {
+    cursor: pointer;
+}
+/* Unlink the underscore */
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #e33333; */
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
