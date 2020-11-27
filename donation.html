@@ -173,7 +173,7 @@
 
         btnArr[i].onclick = function () {
             for (var j = 0; j < btnArr.length; j++) {
-                btnArr[j].classList.remove('currentSelect');  
+                btnArr[j].classList.remove('currentSelect'); //Restore the background color after clicking
             }
             this.classList.add('currentSelect')
         }
